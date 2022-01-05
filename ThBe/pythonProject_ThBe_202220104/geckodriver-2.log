@@ -1,0 +1,10 @@
+1641312225721	geckodriver	INFO	Listening on 127.0.0.1:52412
+1641312228789	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52413" "-no-remote" "-profile" "C:\\Users\\thbe9\\AppData\\Local\\Temp\\rust_mozprofile4jLhAY"
+1641312228975	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\thbe9\\AppData\\Local\\Temp\\rust_mozprofile4jLhAY\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52413/devtools/browser/2b8d47b9-c6ce-46f8-86ed-75a7c297b73c
+1641312230446	Marionette	INFO	Listening on port 52421
+1641312230831	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://blazedemo.com/assets/bootstrap.min.js, line 7: TypeError: a is not a function
+JavaScript error: https://blazedemo.com/assets/bootstrap-table.js, line 1126: ReferenceError: jQuery is not defined
+1641312267633	Marionette	INFO	Stopped listening on port 52421
