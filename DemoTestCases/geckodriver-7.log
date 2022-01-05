@@ -1,0 +1,20 @@
+1641393459318	geckodriver	INFO	Listening on 127.0.0.1:53095
+1641393462387	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "53096" "-no-remote" "-profile" "C:\\Users\\thbe9\\AppData\\Local\\Temp\\rust_mozprofilePXCj3y"
+1641393462569	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\thbe9\\AppData\\Local\\Temp\\rust_mozprofilePXCj3y\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:53096/devtools/browser/bf6eaf2b-d7ae-44de-a04d-f36f83123d1f
+1641393464041	Marionette	INFO	Listening on port 53108
+1641393464443	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+JavaScript error: , line 0: NS_ERROR_NOT_AVAILABLE
+1641407430718	Marionette	INFO	Stopped listening on port 53108
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+[Parent 5824, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39015B,name=PContent::Msg_InsertNewFocusActionId) Closed channel: cannot send/recv
+
+
+###!!! [Child][MessageChannel] Error: (msgtype=0x39014E,name=PContent::Msg_DiscardBrowsingContext) Closed channel: cannot send/recv
+
+JavaScript error: resource://gre/modules/AsyncShutdown.jsm, line 718: Error: Phase "Sqlite.jsm: wait until all connections are closed" is finished, it is too late to register completion condition "protections.sqlite#0: waiting for shutdown"

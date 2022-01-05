@@ -1,0 +1,16 @@
+1641393026880	geckodriver	INFO	Listening on 127.0.0.1:52275
+1641393029921	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "52276" "-no-remote" "-profile" "C:\\Users\\thbe9\\AppData\\Local\\Temp\\rust_mozprofilevQTuWX"
+1641393030112	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\thbe9\\AppData\\Local\\Temp\\rust_mozprofilevQTuWX\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:52276/devtools/browser/c74711be-9236-408c-851b-4f9ac9d39a8c
+1641393031690	Marionette	INFO	Listening on port 52284
+1641393031982	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1641393040551	Marionette	INFO	Stopped listening on port 52284
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.jsm:326:29
+
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+JavaScript error: chrome://remote/content/marionette/cert.js, line 55: NS_ERROR_NOT_AVAILABLE: Component returned failure code: 0x80040111 (NS_ERROR_NOT_AVAILABLE) [nsICertOverrideService.setDisableAllSecurityChecksAndLetAttackersInterceptMyData]
+
+###!!! [Parent][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+

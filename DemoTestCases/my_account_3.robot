@@ -2,7 +2,7 @@
 Library  SeleniumLibrary
 
 *** Variables ***
-${homepage_url}               http://demostore.supersqa.com/
+${homepage_url}               https://demostore.supersqa.com/
 ${missing_username_error}     Error: Username is required.
 ${missing_password_error}     ERROR: The password field is empty.
 
@@ -10,7 +10,7 @@ ${missing_password_error}     ERROR: The password field is empty.
 *** Test Cases ***
 Login attempt with invalid user should show error
     Open Browser                ${homepage_url}  Chrome
-    Click Element               id=menu-item-157
+    Click Element               //*[@class='page_item page-item-9']
     Input Text                  id=username     fakeuser
     Input Text                  id=password     fakepassword
     Click Element               css=#post-73 > div > div > form > p:nth-child(3) > input.woocommerce-Button.button
@@ -21,7 +21,7 @@ Login attempt with invalid user should show error
 
 Login attempt with empty password should show "Empty Password" error message
     Open Browser                    ${homepage_url}  Chrome
-    Click Element                   id=menu-item-157
+    Click Element                   //*[@class='page_item page-item-9']
     Input Text                      id=username     fakeuser
     Wait Until Element Is Visible   css=#post-73 > div > div > form > p:nth-child(3) > input.woocommerce-Button.button
     Click Element                   css=#post-73 > div > div > form > p:nth-child(3) > input.woocommerce-Button.button
@@ -32,7 +32,7 @@ Login attempt with empty password should show "Empty Password" error message
 
 Login attempt with empty username should show "Empty Password" error message
     Open Browser                    ${homepage_url}  Chrome
-    Click Element                   id=menu-item-157
+    Click Element                   //*[@class='page_item page-item-9']
     Input Text                      id=password     fakepassword
     Wait Until Element Is Visible   css=#post-73 > div > div > form > p:nth-child(3) > input.woocommerce-Button.button
     Click Element                   css=#post-73 > div > div > form > p:nth-child(3) > input.woocommerce-Button.button
