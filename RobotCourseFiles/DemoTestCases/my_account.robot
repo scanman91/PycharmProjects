@@ -5,7 +5,7 @@ Library  SeleniumLibrary
 *** Test Cases ***
 Login attempt with invalid user should show error
 
-    Open Browser                http://demostore.supersqa.com/  firefox
+    Open Browser                http://demostore.supersqa.com/  Firefox
     Click Element               id=menu-item-157
     Input Text                  id=username     fakeuser
     Input Text                  id=password     fakepassword

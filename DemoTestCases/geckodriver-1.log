@@ -1,0 +1,20 @@
+1641380687554	geckodriver	INFO	Listening on 127.0.0.1:51282
+1641380690637	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51283" "-no-remote" "-profile" "C:\\Users\\thbe9\\AppData\\Local\\Temp\\rust_mozprofilesvZyU1"
+1641380691097	Marionette	INFO	Marionette enabled
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\thbe9\\AppData\\Local\\Temp\\rust_mozprofilesvZyU1\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:51283/devtools/browser/af891c95-f769-489e-9855-1c4d4f2bbc3f
+1641380692740	Marionette	INFO	Listening on port 51291
+1641380692819	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request http://demostore.supersqa.com/wp-content/plugins/woocommerce/assets/css/select2.css?ver=4.0.2 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request http://demostore.supersqa.com/wp-content/themes/storefront/style.css?ver=2.5.5 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request http://demostore.supersqa.com/wp-content/themes/storefront/assets/css/base/icons.css?ver=2.5.5 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,700,900&subset=latin%2Clatin-ext without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request http://demostore.supersqa.com/wp-content/themes/storefront/assets/css/woocommerce/woocommerce.css?ver=2.5.5 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request http://demostore.supersqa.com/wp-content/themes/storefront/style.css?ver=2.5.5 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request http://demostore.supersqa.com/wp-content/themes/storefront/assets/css/base/icons.css?ver=2.5.5 without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,300,300italic,400italic,600,700,900&subset=latin%2Clatin-ext without a browsingContextID set
+JavaScript error: resource://devtools/server/actors/network-monitor/network-event-actor.js, line 110: Error: Got a request http://demostore.supersqa.com/wp-content/themes/storefront/assets/css/woocommerce/woocommerce.css?ver=2.5.5 without a browsingContextID set
+console.log: WebExtensions: reset-default-search: starting.
+console.log: WebExtensions: reset-default-search: No addons in our list are installed.
+1641381394969	Marionette	INFO	Stopped listening on port 51291
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
