@@ -5,5 +5,8 @@ console.warn: SearchSettings: "get: No settings file exists, new profile?" (new 
 DevTools listening on ws://localhost:58884/devtools/browser/800ba57d-aa9f-498e-8fae-9e7499c8e2d5
 1641418049488	Marionette	INFO	Listening on port 58895
 1641418049814	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+<<<<<<< HEAD
 1641418728090	Marionette	INFO	Stopped listening on port 58895
 console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+=======
+>>>>>>> origin/branch01
