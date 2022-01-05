@@ -6,7 +6,7 @@ Library  SeleniumLibrary
 Login attempt with invalid user should show error
 
     Open Browser                http://demostore.supersqa.com/  firefox
-    Click Element               id=menu-item-157
+    Click element               //*[@class='page_item page-item-9']
     Input Text                  id=username     fakeuser
     Input Text                  id=password     fakepassword
     Click Element               css=#post-73 > div > div > form > p:nth-child(3) > input.woocommerce-Button.button
