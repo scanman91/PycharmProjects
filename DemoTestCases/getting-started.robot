@@ -19,7 +19,7 @@ ${BROWSER_TYPE}  webkit
 *** Keywords ***
 
 Open Login Page
-    New Browser  ${BROWSER_TYPE}
+    New Browser  ${BROWSER_TYPE}  headless=false
     New Page    ${DEMO_URL}
     Login Page Should Be Open
 
