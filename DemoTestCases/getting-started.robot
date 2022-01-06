@@ -40,5 +40,6 @@ Welcome Page Should Be Open
     Get Text   body   ==   I salute you, Robot overloard!
     Get Title  ==    Robots rule
 
-# nu werkt het
+# nu werkt het 20220104 node.js geinstalleerd  met path setting,
+# pip install robotframework-browser en rfbrowser init en alles in 1 bestand gezet
 
