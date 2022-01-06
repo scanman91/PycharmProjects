@@ -1,6 +1,6 @@
 #Browser library
 # Only Python 3.7 or newer is supported.
-# 	1. Install node.js e.g. from  https://nodejs.org/en/download/
+# 	1. Install node.js e.g. from  https://nodejs.org/en/download/ en voeg toe in PATH!!!
 # 	2. Update pip pip install -U pip to ensure latest version is used
 #	3. Install robotframework-browser from the commandline: pip install robotframework-browser
 #	4. Install the node dependencies: run rfbrowser init in your shell
