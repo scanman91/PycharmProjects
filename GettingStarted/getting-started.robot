@@ -28,7 +28,8 @@ Valid Login
 
 *** Variables ***
 ${DEMO_URL}      https://robotframework.org/demoapp
-${BROWSER_TYPE}  chromium
+${BROWSER_TYPE}  webkit
+
 
 
 
