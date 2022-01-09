@@ -29,4 +29,3 @@ Welcome Page Should Be Open
     Get Url   ==   ${DEMO URL}
     Get Text   body   ==   I salute you, Robot overloard!
     Get Title  ==    Robots rule
-

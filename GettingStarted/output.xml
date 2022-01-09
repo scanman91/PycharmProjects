@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 4.1.3 (Python 3.10.1 on win32)" generated="20220107 15:36:49.741" rpa="false" schemaversion="2">
+<robot generator="Robot 4.1.3 (Python 3.10.1 on win32)" generated="20220107 11:52:38.204" rpa="false" schemaversion="2">
 <suite id="s1" name="Getting-Started" source="C:\PycharmProjects\GettingStarted\getting-started.robot">
 <test id="s1-t1" name="Valid Login">
 <kw name="Open Login Page" library="resource">
@@ -9,18 +9,18 @@
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Create a new playwright Browser with specified options.</doc>
-<msg timestamp="20220107 15:36:50.420" level="INFO">{"browser": "chromium", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "C:\\PycharmProjects\\GettingStarted\\browser\\traces\\827a2b17-ae0a-4414-be66-2598bb7ad12b"}</msg>
-<msg timestamp="20220107 15:36:50.846" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"C:\\PycharmProjects\\GettingStarted\\browser\\traces\\827a2b17-ae0a-4414-be66-2598bb7ad12b"}</msg>
-<status status="PASS" starttime="20220107 15:36:50.420" endtime="20220107 15:36:50.846"/>
+<msg timestamp="20220107 11:52:38.882" level="INFO">{"browser": "webkit", "headless": false, "handleSIGINT": true, "handleSIGTERM": true, "handleSIGHUP": true, "timeout": 30000.0, "devtools": false, "slowMo": 0.0, "tracesDir": "C:\\PycharmProjects\\GettingStarted\\browser\\traces\\7b95703e-0081-43da-a6e4-0893d9197af5"}</msg>
+<msg timestamp="20220107 11:52:39.018" level="INFO">Successfully created browser with options: {"browser":"webkit","headless":false,"handleSIGINT":true,"handleSIGTERM":true,"handleSIGHUP":true,"timeout":30000,"devtools":false,"slowMo":0,"tracesDir":"C:\\PycharmProjects\\GettingStarted\\browser\\traces\\7b95703e-0081-43da-a6e4-0893d9197af5"}</msg>
+<status status="PASS" starttime="20220107 11:52:38.882" endtime="20220107 11:52:39.018"/>
 </kw>
 <kw name="New Page" library="Browser">
 <arg>${DEMO_URL}</arg>
 <tag>BrowserControl</tag>
 <tag>Setter</tag>
 <doc>Open a new Page.</doc>
-<msg timestamp="20220107 15:36:51.489" level="INFO">Successfully initialized new page object and opened url: https://robotframework.org/demoapp</msg>
-<msg timestamp="20220107 15:36:51.489" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
-<status status="PASS" starttime="20220107 15:36:50.847" endtime="20220107 15:36:51.489"/>
+<msg timestamp="20220107 11:52:39.195" level="INFO">Successfully initialized new page object and opened url: https://robotframework.org/demoapp</msg>
+<msg timestamp="20220107 11:52:39.195" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<status status="PASS" starttime="20220107 11:52:39.018" endtime="20220107 11:52:39.195"/>
 </kw>
 <kw name="Login Page Should Be Open" library="resource">
 <kw name="Get Url" library="Browser">
@@ -30,7 +30,7 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns the current URL.</doc>
-<status status="PASS" starttime="20220107 15:36:51.489" endtime="20220107 15:36:51.493"/>
+<status status="PASS" starttime="20220107 11:52:39.196" endtime="20220107 11:52:39.197"/>
 </kw>
 <kw name="Get Title" library="Browser">
 <arg>==</arg>
@@ -39,11 +39,11 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns the title of the current page.</doc>
-<status status="PASS" starttime="20220107 15:36:51.493" endtime="20220107 15:36:51.497"/>
+<status status="PASS" starttime="20220107 11:52:39.197" endtime="20220107 11:52:39.227"/>
 </kw>
-<status status="PASS" starttime="20220107 15:36:51.489" endtime="20220107 15:36:51.498"/>
+<status status="PASS" starttime="20220107 11:52:39.195" endtime="20220107 11:52:39.227"/>
 </kw>
-<status status="PASS" starttime="20220107 15:36:50.420" endtime="20220107 15:36:51.498"/>
+<status status="PASS" starttime="20220107 11:52:38.882" endtime="20220107 11:52:39.227"/>
 </kw>
 <kw name="Input Credentials" library="resource">
 <arg>robot</arg>
@@ -54,8 +54,8 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20220107 15:36:51.499" level="INFO">Types the text 'robot' in the given field.</msg>
-<status status="PASS" starttime="20220107 15:36:51.498" endtime="20220107 15:36:51.541"/>
+<msg timestamp="20220107 11:52:39.228" level="INFO">Types the text 'robot' in the given field.</msg>
+<status status="PASS" starttime="20220107 11:52:39.228" endtime="20220107 11:52:39.414"/>
 </kw>
 <kw name="Type Text" library="Browser">
 <arg>text=Password</arg>
@@ -63,10 +63,10 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
-<msg timestamp="20220107 15:36:51.541" level="INFO">Types the text 'overloard' in the given field.</msg>
-<status status="PASS" starttime="20220107 15:36:51.541" endtime="20220107 15:36:51.561"/>
+<msg timestamp="20220107 11:52:39.414" level="INFO">Types the text 'overloard' in the given field.</msg>
+<status status="PASS" starttime="20220107 11:52:39.414" endtime="20220107 11:52:39.461"/>
 </kw>
-<status status="PASS" starttime="20220107 15:36:51.498" endtime="20220107 15:36:51.561"/>
+<status status="PASS" starttime="20220107 11:52:39.227" endtime="20220107 11:52:39.461"/>
 </kw>
 <kw name="Submit Credentials" library="resource">
 <kw name="Click" library="Browser">
@@ -74,9 +74,9 @@
 <tag>PageContent</tag>
 <tag>Setter</tag>
 <doc>Simulates mouse click on the element found by ``selector``.</doc>
-<status status="PASS" starttime="20220107 15:36:51.562" endtime="20220107 15:36:51.600"/>
+<status status="PASS" starttime="20220107 11:52:39.462" endtime="20220107 11:52:39.646"/>
 </kw>
-<status status="PASS" starttime="20220107 15:36:51.562" endtime="20220107 15:36:51.600"/>
+<status status="PASS" starttime="20220107 11:52:39.461" endtime="20220107 11:52:39.646"/>
 </kw>
 <kw name="Welcome Page Should Be Open" library="resource">
 <kw name="Get Url" library="Browser">
@@ -86,7 +86,7 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns the current URL.</doc>
-<status status="PASS" starttime="20220107 15:36:51.601" endtime="20220107 15:36:51.602"/>
+<status status="PASS" starttime="20220107 11:52:39.646" endtime="20220107 11:52:39.648"/>
 </kw>
 <kw name="Get Text" library="Browser">
 <arg>body</arg>
@@ -96,7 +96,7 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns text attribute of the element found by ``selector``.</doc>
-<status status="PASS" starttime="20220107 15:36:51.602" endtime="20220107 15:36:51.616"/>
+<status status="PASS" starttime="20220107 11:52:39.648" endtime="20220107 11:52:39.666"/>
 </kw>
 <kw name="Get Title" library="Browser">
 <arg>==</arg>
@@ -105,16 +105,16 @@
 <tag>Getter</tag>
 <tag>PageContent</tag>
 <doc>Returns the title of the current page.</doc>
-<status status="PASS" starttime="20220107 15:36:51.616" endtime="20220107 15:36:51.617"/>
+<status status="PASS" starttime="20220107 11:52:39.666" endtime="20220107 11:52:39.668"/>
 </kw>
-<status status="PASS" starttime="20220107 15:36:51.600" endtime="20220107 15:36:51.618"/>
+<status status="PASS" starttime="20220107 11:52:39.646" endtime="20220107 11:52:39.668"/>
 </kw>
-<status status="PASS" starttime="20220107 15:36:50.418" endtime="20220107 15:36:51.618"/>
+<status status="PASS" starttime="20220107 11:52:38.881" endtime="20220107 11:52:39.668"/>
 </test>
 <doc>A test suite for valid login.
 
 Keywords are imported from the resource file</doc>
-<status status="PASS" starttime="20220107 15:36:49.742" endtime="20220107 15:36:51.658"/>
+<status status="PASS" starttime="20220107 11:52:38.205" endtime="20220107 11:52:39.687"/>
 </suite>
 <statistics>
 <total>
